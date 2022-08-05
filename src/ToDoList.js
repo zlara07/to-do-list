@@ -54,7 +54,7 @@ export class ToDoList extends Component {
              <ul>
                 {this.state.list.map((item, index) => (
                     <li onClick={this.crossedWord} key={index}>
-                    <img src ={daily} width="40px"/> 
+                    <img src ={daily} width="40px" alt="foto3"/> 
                     {item}</li>
                 ))}
              </ul>
